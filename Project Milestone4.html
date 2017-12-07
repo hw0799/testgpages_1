@@ -206,28 +206,27 @@ be addressed:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-family:URWPalladioL-Roma'>                Limited patient data
-available</span></p>
+style='font-family:URWPalladioL-Roma'>Limited patient data available</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-family:URWPalladioL-Roma'>                Data is collected
-according to multiple protocols (ADNI, ADNI GO, ADNI 2)</span></p>
+style='font-family:URWPalladioL-Roma'>Data is collected according to multiple protocols
+(ADNI, ADNI GO, ADNI 2)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-family:URWPalladioL-Roma'>                Some of the data has longitudinal
+style='font-family:URWPalladioL-Roma'>Some of the data has longitudinal
 component that adds complexity</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-family:URWPalladioL-Roma'>                Labeling is not always
-reliable, e.g., it might be not clear whether it’s AD or other form of dementia</span></p>
+style='font-family:URWPalladioL-Roma'>Labeling is not always reliable, e.g., it
+might be not clear whether it’s AD or other form of dementia</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-family:URWPalladioL-Roma'>                Early detection is key so
-find the smallest and least expensive feature subset is important</span></p>
+style='font-family:URWPalladioL-Roma'>Early detection is key so find the
+smallest and least expensive feature subset is important</span></p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-top:6.0pt;margin-right:11.0pt;
 margin-bottom:6.0pt;margin-left:1.0in;line-height:150%;text-autospace:none'><span
@@ -262,39 +261,38 @@ BIOMARK.csv is used. BIOMARKER predictors were selected in a way that still
 could get valid dataset after join with ADNIMERG.csv in order to perform model
 evaluation. Dataset has following issue or characteristics: </span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+<p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
 margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
-text-autospace:none'><span style='font-family:"Times New Roman","serif"'>            Limited
+text-autospace:none'><span style='font-family:"Times New Roman","serif"'>Limited
 patient data available, especially after removing rows with missing data</span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
-text-autospace:none'><span style='font-family:"Times New Roman","serif"'>Data
-is collected according to multiple protocols (ADNI, ADNI GO, ADNI2), there is
-ADNI 3, but only have less than 300 records, not enough to build credible
-model, so didn’t be part of the analysis in this project.</span></p>
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
+style='font-family:"Times New Roman","serif"'>Data is collected according to multiple
+protocols (ADNI, ADNI GO, ADNI2), there is ADNI 3, but only have less than 300
+records, not enough to build credible model, so didn’t be part of the analysis
+in this project.</span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
-text-autospace:none'><span style='font-family:"Times New Roman","serif"'>Some
-of the data has longitudinal components: one patient could have multiple visit
-with multiple records (entry), some information is fixed, for example,
-demographic, like gender, education, ethic, race, etc. </span></p>
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
+style='font-family:"Times New Roman","serif"'>Some of the data has longitudinal
+components: one patient could have multiple visit with multiple records
+(entry), some information is fixed, for example, demographic, like gender,
+education, ethic, race, etc. </span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
-text-autospace:none'><span style='font-family:"Times New Roman","serif"'>Because
-one of the major work is data preprocessing, this will impact all the following
-step/results: model building/evaluation etc. So each step, have its own
-modeling and results to corresponding to its own data pre-processing. </span></p>
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
+style='font-family:"Times New Roman","serif"'>Because one of the major work is
+data preprocessing, this will impact all the following step/results: model
+building/evaluation etc. So each step, have its own modeling and results to corresponding
+to its own data pre-processing. </span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
-text-autospace:none'><span style='font-family:"Times New Roman","serif"'>Data pre-processing
-approach:</span></p>
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
+style='font-family:"Times New Roman","serif"'>Data pre-processing approach:</span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
+<p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
 text-autospace:none'><span style='font-family:"Times New Roman","serif"'>Step
 1. One participant could have multiple entry, DX is the diagnosis results, and
 could change over time for one patient.  There are longitudinal data issue, to
@@ -302,30 +300,30 @@ solve this, DX_last is created to keep track one participant’s last available
 diagnosis results.  DX_last is the response variable</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
+margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
 text-autospace:none'><span style='font-family:"Times New Roman","serif"'>Step
 2: based on step 1, DX_change is created to keep track if a participant’s
 diagnosis results changes over time. If it is positive, the participant’s
 records will be dropped from dataset. DX_last is the response variable</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
+margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
 text-autospace:none'><span style='font-family:"Times New Roman","serif"'>Step
 3: based on step 2predictors from BIOMARK.csv are selected, then join with
 ADNIMERGE.csv based on participant ID, exam date, and protocol.  </span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
+margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
 text-autospace:none'><span style='font-family:"Times New Roman","serif"'>            Step
 3 also break into two part: CSF biomark were tested and Plasma biomark were
 also tested.</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
+margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
 text-autospace:none'><span style='font-family:"Times New Roman","serif"'>&nbsp;</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;line-height:normal;
+margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
 text-autospace:none'><span style='font-family:"Times New Roman","serif"'>Below are
 scatter plot of top pick BIOMARK predictors that illustrate a clear boundary
 between each region. </span></p>
@@ -336,13 +334,16 @@ text-autospace:none'><span style='font-family:"Times New Roman","serif"'>       
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
 margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
-text-autospace:none'><img width=690 height=344 id="Picture 1"
-src="Project%20Milestone4_files/image001.png"></p>
+text-autospace:none'><a href="scatterPlot_DX_change_nobfill_joinADNI_CSF.JPG"><span
+style='color:windowtext;text-decoration:none'><img border=0 width=690
+height=344 id="Picture 1" src="Project%20Milestone4_files/image001.png"></span></a></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
 margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
-text-autospace:none'><img width=641 height=393 id="Picture 2"
-src="Project%20Milestone4_files/image002.png"></p>
+text-autospace:none'><a
+href="scatterPlot_RVAL_DX_change_nobfill_joinADNI_CSF.JPG"><span
+style='color:windowtext;text-decoration:none'><img border=0 width=641
+height=393 id="Picture 2" src="Project%20Milestone4_files/image002.png"></span></a></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
 margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;
