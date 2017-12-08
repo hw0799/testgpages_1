@@ -22,16 +22,16 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>Xinyu Li</o:Author>
   <o:LastAuthor>Cindy</o:LastAuthor>
-  <o:Revision>7</o:Revision>
+  <o:Revision>8</o:Revision>
   <o:TotalTime>413</o:TotalTime>
   <o:Created>2017-12-08T01:17:00Z</o:Created>
-  <o:LastSaved>2017-12-08T01:27:00Z</o:LastSaved>
+  <o:LastSaved>2017-12-08T01:32:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>564</o:Words>
-  <o:Characters>3217</o:Characters>
-  <o:Lines>26</o:Lines>
+  <o:Words>574</o:Words>
+  <o:Characters>3272</o:Characters>
+  <o:Lines>27</o:Lines>
   <o:Paragraphs>7</o:Paragraphs>
-  <o:CharactersWithSpaces>3774</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>3839</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -662,6 +662,13 @@ w\:* {behavior:url(#default#VML);}
 	mso-font-format:other;
 	mso-font-pitch:variable;
 	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520092929 1073786111 9 0 415 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -671,7 +678,7 @@ w\:* {behavior:url(#default#VML);}
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -706,7 +713,7 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	margin-bottom:8.0pt;
 	margin-left:.5in;
 	mso-add-space:auto;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -729,7 +736,7 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
 	margin-left:.5in;
 	margin-bottom:.0001pt;
 	mso-add-space:auto;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -752,7 +759,7 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	margin-left:.5in;
 	margin-bottom:.0001pt;
 	mso-add-space:auto;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -774,7 +781,7 @@ p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxS
 	margin-bottom:8.0pt;
 	margin-left:.5in;
 	mso-add-space:auto;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -1063,18 +1070,18 @@ style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
 1. One participant could have multiple entry, DX is the diagnosis results, and
 could change over time for one patient.<span style='mso-spacerun:yes'> 
 </span>There are longitudinal data issue.<span style='mso-spacerun:yes'> 
-</span>To solve this, DX_last is created to keep track one participant’s last
-available diagnosis results.<span style='mso-spacerun:yes'>  </span>DX_last is
-the response variable. Models were built to predict DX_last.<o:p></o:p></span></p>
+</span>To solve this, DX_last is created to keep track one participant’s last available
+diagnosis results.<span style='mso-spacerun:yes'>  </span>DX_last is the
+response variable. Models were built to predict DX_last.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:6.0pt;margin-right:.4in;
 margin-bottom:0in;margin-left:.4in;margin-bottom:.0001pt;mso-add-space:auto;
 line-height:150%;mso-layout-grid-align:none;text-autospace:none'><span
 style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Step
 2: based on step 1, DX_change is created to keep track if a participant’s
-diagnosis results changes over time. If it is positive, the participant’s
-records will be dropped from dataset. DX_last is the response variable, this
-step remove noise that might impact the prediction power of the model, due to
+diagnosis results changes over time. If it is positive, the participant’s records
+will be dropped from dataset. DX_last is the response variable, this step
+remove noise that might impact the prediction power of the model, due to
 longitudinal nature of the data<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:6.0pt;margin-right:.4in;
@@ -1132,22 +1139,25 @@ mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="216
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
 </v:shapetype><v:shape id="Picture_x0020_4" o:spid="_x0000_i1027" type="#_x0000_t75"
- style='width:517.5pt;height:258pt;visibility:visible;mso-wrap-style:square'>
+ alt="scatterPlot_DX_change_nobfill_joinADNI_CSF" style='width:517.5pt;
+ height:258pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="part2_files/image001.jpg" o:title="scatterPlot_DX_change_nobfill_joinADNI_CSF"/>
 </v:shape><![endif]--><![if !vml]><img width=690 height=344
-src="part2_files/image001.jpg" v:shapes="Picture_x0020_4"><![endif]></span><span
-style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+src="part2_files/image001.jpg" alt="scatterPlot_DX_change_nobfill_joinADNI_CSF"
+v:shapes="Picture_x0020_4"><![endif]></span><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:6.0pt;margin-right:.4in;
 margin-bottom:0in;margin-left:.4in;margin-bottom:.0001pt;mso-add-space:auto;
 line-height:150%;mso-layout-grid-align:none;text-autospace:none'><span
 style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif";
 mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_5" o:spid="_x0000_i1026"
- type="#_x0000_t75" style='width:480.75pt;height:248.25pt;visibility:visible;
- mso-wrap-style:square'>
+ type="#_x0000_t75" alt="scatterPlot_RVAL_DX_change_nobfill_joinADNI_CSF"
+ style='width:480.75pt;height:248.25pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="part2_files/image002.jpg" o:title="scatterPlot_RVAL_DX_change_nobfill_joinADNI_CSF"/>
 </v:shape><![endif]--><![if !vml]><img width=641 height=331
-src="part2_files/image002.jpg" v:shapes="Picture_x0020_5"><![endif]></span><span
+src="part2_files/image002.jpg"
+alt="scatterPlot_RVAL_DX_change_nobfill_joinADNI_CSF" v:shapes="Picture_x0020_5"><![endif]></span><span
 style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:6.0pt;margin-right:.4in;
@@ -1171,14 +1181,17 @@ pairwise plot below, some shows strong linear correlation.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:6.0pt;margin-right:.4in;
 margin-bottom:0in;margin-left:.4in;margin-bottom:.0001pt;mso-add-space:auto;
-line-height:150%;mso-layout-grid-align:none;text-autospace:none'><span
-style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif";
-mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_6" o:spid="_x0000_i1025"
- type="#_x0000_t75" style='width:740.25pt;height:557.25pt;visibility:visible;
- mso-wrap-style:square'>
+line-height:150%;mso-layout-grid-align:none;text-autospace:none'><a
+href="Pairwise_Plot_DX_change_nobfill_joinADNI_CSF.JPG"><span style='font-size:
+12.0pt;line-height:150%;font-family:"Times New Roman","serif";color:windowtext;
+mso-no-proof:yes;text-decoration:none;text-underline:none'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_6" o:spid="_x0000_i1025" type="#_x0000_t75" alt="Pairwise_Plot_DX_change_nobfill_joinADNI_CSF"
+ href="Pairwise_Plot_DX_change_nobfill_joinADNI_CSF.JPG" style='width:740.25pt;
+ height:557.25pt;visibility:visible;mso-wrap-style:square' o:button="t">
  <v:imagedata src="part2_files/image003.jpg" o:title="Pairwise_Plot_DX_change_nobfill_joinADNI_CSF"/>
-</v:shape><![endif]--><![if !vml]><img width=987 height=743
-src="part2_files/image003.jpg" v:shapes="Picture_x0020_6"><![endif]></span><span
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'><img
+border=0 width=987 height=743 src="part2_files/image003.jpg"
+alt="Pairwise_Plot_DX_change_nobfill_joinADNI_CSF" v:shapes="Picture_x0020_6"></span><![endif]></span></a><span
 style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-top:6.0pt;margin-right:.4in;
