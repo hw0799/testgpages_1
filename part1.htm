@@ -14,6 +14,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link rel=colorSchemeMapping href="part1_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -725,6 +727,9 @@ p.msopapdefault, li.msopapdefault, div.msopapdefault
 	font-family:"Times New Roman","serif";
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -775,8 +780,9 @@ div.WordSection1
 <div class=WordSection1>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:-.1in;margin-bottom:
-6.0pt;margin-left:0in;line-height:150%;text-autospace:none'><b><span
-style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>1.Problem
+6.0pt;margin-left:0in;line-height:150%;text-autospace:none'><span class=GramE><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>1.Problem</span></b></span><b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
 Statement and Motivation: </span></b><span style='font-size:12.0pt;line-height:
 150%;font-family:"Times New Roman","serif"'>This should be brief and
 self-contained:</span></p>
@@ -785,12 +791,14 @@ self-contained:</span></p>
 0in;margin-left:.1in;margin-bottom:.0001pt;line-height:150%;text-autospace:
 none'><span style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Project
 goal: The goal for this project is to propose, build and evaluate a data-driven
-model for an Alzheimer’s or cognitive impairment related investigation using patient
-demographic information,</span></p>
+model for an Alzheimer’s or cognitive impairment related investigation using
+patient demographic information,</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:-.1in;margin-bottom:
 0in;margin-left:.1in;margin-bottom:.0001pt;line-height:150%;text-autospace:
-none'><span style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>medical
+none'><span class=GramE><span style='font-size:12.0pt;line-height:150%;
+font-family:"Times New Roman","serif"'>medical</span></span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
 records, and related data. A classic investigation would be centered around
 building a machine learning solution for evaluating a patient’s risk of
 developing Alzheimer’s based on medical history. </span></p>
@@ -802,9 +810,10 @@ following issue addressed or should be addressed:</span></p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:-.1in;
 margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;
-line-height:150%;text-autospace:none'><span style='font-size:12.0pt;line-height:
-150%;font-family:"Times New Roman","serif"'>a.</span><span style='font-size:
-7.0pt;line-height:150%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+line-height:150%;text-autospace:none'><span class=GramE><span style='font-size:
+12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>a</span></span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>.</span><span
+style='font-size:7.0pt;line-height:150%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><span style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Limited
 patient data available</span></p>
 
@@ -814,7 +823,8 @@ line-height:150%;text-autospace:none'><span style='font-size:12.0pt;line-height:
 150%;font-family:"Times New Roman","serif"'>b.</span><span style='font-size:
 7.0pt;line-height:150%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><span style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Data
-is collected according to multiple protocols (ADNI, ADNI GO, ADNI 2)</span></p>
+is collected according to multiple protocols (ADNI, ADNI GO, <span class=GramE>ADNI</span>
+2)</span></p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:-.1in;
 margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;
@@ -826,9 +836,10 @@ of the data has longitudinal component that adds complexity</span></p>
 
 <p class=MsoListParagraph style='margin-top:6.0pt;margin-right:-.1in;
 margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;
-line-height:150%;text-autospace:none'><span style='font-size:12.0pt;line-height:
-150%;font-family:"Times New Roman","serif"'>d.</span><span style='font-size:
-7.0pt;line-height:150%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+line-height:150%;text-autospace:none'><span class=GramE><span style='font-size:
+12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>d</span></span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>.</span><span
+style='font-size:7.0pt;line-height:150%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><span style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Labeling
 is not always reliable, e.g., it might be not clear whether it is AD or other
 form of dementia</span></p>
