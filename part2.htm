@@ -22,16 +22,16 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>Xinyu Li</o:Author>
   <o:LastAuthor>Cindy</o:LastAuthor>
-  <o:Revision>8</o:Revision>
-  <o:TotalTime>413</o:TotalTime>
+  <o:Revision>13</o:Revision>
+  <o:TotalTime>414</o:TotalTime>
   <o:Created>2017-12-08T01:17:00Z</o:Created>
-  <o:LastSaved>2017-12-08T01:32:00Z</o:LastSaved>
+  <o:LastSaved>2017-12-08T01:39:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>574</o:Words>
-  <o:Characters>3272</o:Characters>
+  <o:Words>573</o:Words>
+  <o:Characters>3269</o:Characters>
   <o:Lines>27</o:Lines>
   <o:Paragraphs>7</o:Paragraphs>
-  <o:CharactersWithSpaces>3839</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>3835</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -42,8 +42,6 @@ w\:* {behavior:url(#default#VML);}
 <link rel=colorSchemeMapping href="part2_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -800,9 +798,6 @@ span.UnresolvedMention1
 	mso-style-unhide:no;
 	color:gray;
 	background:#E6E6E6;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -931,15 +926,13 @@ font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:.4in;margin-bottom:
 0in;margin-left:0in;margin-bottom:.0001pt;line-height:150%;mso-layout-grid-align:
-none;text-autospace:none'><span class=GramE><b><span style='font-size:12.0pt;
-line-height:150%;font-family:"Times New Roman","serif"'>2.Introduction</span></b></span><b><span
-style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
-and Description of Data:</span></b><span style='font-size:12.0pt;line-height:
-150%;font-family:"Times New Roman","serif";mso-bidi-font-weight:bold'>Description
-of relevant knowledge. Why is this problem important? Why is it challenging?
-Introduce the motivations for the project question and how that question was
-defined through preliminary EDA. </span><span style='font-size:12.0pt;
-line-height:150%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+none;text-autospace:none'><b><span style='font-size:12.0pt;line-height:150%;
+font-family:"Times New Roman","serif"'>2.Introduction and Description of Data:</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif";
+mso-bidi-font-weight:bold'>Description of relevant knowledge. Why is this
+problem important? Why is it challenging? Introduce the motivations for the
+project question and how that question was defined through preliminary EDA. </span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-top:6.0pt;margin-right:.4in;
 margin-bottom:0in;margin-left:.4in;margin-bottom:.0001pt;mso-add-space:auto;
@@ -1003,9 +996,9 @@ font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'
 style='mso-list:Ignore'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:12.0pt;line-height:150%;
 font-family:"Times New Roman","serif"'>Data is collected according to multiple
-protocols (ADNI, ADNI GO, <span class=GramE>ADNI2</span>), there is ADNI 3, but
-only have less than 300 records, not enough to build credible model, so didn’t
-be part of the analysis in this project.<o:p></o:p></span></p>
+protocols (ADNI, ADNI GO, ADNI2), there is ADNI 3, but only have less than 300
+records, not enough to build credible model, so didn’t be part of the analysis
+in this project.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:.4in;margin-bottom:
 0in;margin-left:.4in;margin-bottom:.0001pt;line-height:150%;mso-layout-grid-align:
@@ -1068,10 +1061,9 @@ margin-bottom:0in;margin-left:.4in;margin-bottom:.0001pt;mso-add-space:auto;
 line-height:150%;mso-layout-grid-align:none;text-autospace:none'><span
 style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Step
 1. One participant could have multiple entry, DX is the diagnosis results, and
-could change over time for one patient.<span style='mso-spacerun:yes'> 
-</span>There are longitudinal data issue.<span style='mso-spacerun:yes'> 
-</span>To solve this, DX_last is created to keep track one participant’s last available
-diagnosis results.<span style='mso-spacerun:yes'>  </span>DX_last is the
+could change over time for one patient. There are longitudinal data issue.<span
+style='mso-spacerun:yes'>  </span>To solve this, DX_last is created to keep
+track one participant’s last available diagnosis results. DX_last is the
 response variable. Models were built to predict DX_last.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:6.0pt;margin-right:.4in;
@@ -1079,9 +1071,9 @@ margin-bottom:0in;margin-left:.4in;margin-bottom:.0001pt;mso-add-space:auto;
 line-height:150%;mso-layout-grid-align:none;text-autospace:none'><span
 style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Step
 2: based on step 1, DX_change is created to keep track if a participant’s
-diagnosis results changes over time. If it is positive, the participant’s records
-will be dropped from dataset. DX_last is the response variable, this step
-remove noise that might impact the prediction power of the model, due to
+diagnosis results changes over time. If it is positive, the participant’s
+records will be dropped from dataset. DX_last is the response variable, this
+step remove noise that might impact the prediction power of the model, due to
 longitudinal nature of the data<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:6.0pt;margin-right:.4in;
@@ -1089,17 +1081,15 @@ margin-bottom:0in;margin-left:.4in;margin-bottom:.0001pt;mso-add-space:auto;
 line-height:150%;mso-layout-grid-align:none;text-autospace:none'><span
 style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Step
 3: based on step 2, predictors from BIOMARK.csv are selected, then join with
-ADNIMERGE.csv based on participant ID, exam date, and protocol.<span
-style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+ADNIMERGE.csv based on participant ID, exam date, and protocol.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:6.0pt;margin-right:.4in;
 margin-bottom:0in;margin-left:.4in;margin-bottom:.0001pt;mso-add-space:auto;
 line-height:150%;mso-layout-grid-align:none;text-autospace:none'><span
 style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Step
-3 also break into two parts: Step3_a: CSF biomarker were tested <span
-class=GramE>and<span style='mso-spacerun:yes'>  </span>step3</span>_b: Plasma
-biomarker were also tested. The enhancement of adding additional biomarker
-predicters were assessed.<o:p></o:p></span></p>
+3 also break into two parts: Step3_a: CSF biomarker were tested and<span
+style='mso-spacerun:yes'>  </span>step3_b: Plasma biomarker were also tested.
+The enhancement of adding additional biomarker predicters were assessed.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:6.0pt;margin-right:.4in;
 margin-bottom:0in;margin-left:.4in;margin-bottom:.0001pt;mso-add-space:auto;
